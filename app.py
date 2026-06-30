@@ -1,7 +1,7 @@
 # =============================================================================
 # SALA DE CONTROL · HILANDERÍA
 # Dashboard de estado y eficiencia de máquinas continuas de anillo
-# Autor: Maribel Cano · Hilandería Nuevo Mundo
+# Autor: Maribel Cano
 # =============================================================================
 
 import streamlit as st
