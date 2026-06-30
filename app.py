@@ -1,7 +1,7 @@
 # =============================================================================
 # SALA DE CONTROL · HILANDERÍA
 # Dashboard de estado y eficiencia de máquinas continuas de anillo
-# Autor: Maribel Cano ·
+# Autor: Maribel Cano · Hilandería Nuevo Mundo
 # =============================================================================
 
 import streamlit as st
@@ -345,7 +345,8 @@ def lee_csv_paros(archivo):
 st.markdown("""
 <div style="
   background: var(--panel);
-  border: 1px solid var(--line);
+  border: 1px solid var(--ok);
+  border-left: 5px solid var(--ok);
   border-radius: 10px;
   padding: 18px 24px;
   margin-bottom: 14px;
@@ -353,14 +354,14 @@ st.markdown("""
   align-items: center;
   gap: 16px;
 ">
-  <span style="width:12px;height:12px;border-radius:50%;background:var(--ok);
-    box-shadow:0 0 10px var(--ok);display:inline-block;flex-shrink:0;"></span>
+  <span style="width:14px;height:14px;border-radius:50%;background:var(--ok);
+    box-shadow:0 0 14px var(--ok);display:inline-block;flex-shrink:0;"></span>
   <div>
-    <div style="font-family:'Rajdhani',sans-serif;font-weight:700;font-size:28px;
-      letter-spacing:3px;color:var(--text);line-height:1;">
+    <div style="font-family:'Rajdhani',sans-serif;font-weight:700;font-size:30px;
+      letter-spacing:4px;color:#FFFFFF;line-height:1;">
       SALA DE CONTROL · HILANDERÍA
     </div>
-    <div style="font-size:11px;color:var(--text2);letter-spacing:2px;margin-top:2px;">
+    <div style="font-size:11px;color:var(--ok);letter-spacing:3px;margin-top:4px;">
       MONITOREO DE MÁQUINAS EN TIEMPO REAL
     </div>
   </div>
